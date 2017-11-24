@@ -21,7 +21,7 @@ def STARTGAME():
 
 	#Initialize the game screen
 	pygame.init()
-	size = width, height = 1800, 1000
+	size = width, height = 1200, 600
 	white = 255,255,255
 	screen = pygame.display.set_mode(size)
 	started = False
